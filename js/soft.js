@@ -1,19 +1,19 @@
 const soft = [
   {
     title: "",
-    img_url: "./assets/soft/ml.png",
+    img_url: "./assets/soft/ml.jpg",
     content: "",
     caption: "Machine Learning",
   },
   {
     title: "",
-    img_url: "./assets/soft/dl.png",
+    img_url: "./assets/soft/dl.jpg",
     content: "",
     caption: "Deep Learning",
   },
   {
     title: "",
-    img_url: "./assets/soft/web.png",
+    img_url: "./assets/soft/web.jpg",
     content: "",
     caption: "Web Technology",
   },
