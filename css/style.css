@@ -1,0 +1,146 @@
+* {
+  /* border: 2px solid red; */
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  /* overflow: hidden; */
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  /* min-width: 600px; */
+  overflow: hidden;
+}
+.rowplus {
+  height: 500px;
+}
+.padding {
+  padding: 30px calc(50% - 600px);
+  /* margin: 50px 0; */
+  /* border-bottom-style: solid; */
+}
+.w100 {
+  width: 100%;
+}
+.title {
+  width: 300px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 30px;
+  background: linear-gradient(to left, #9debdf, rgb(217, 143, 217));
+  position: relative;
+  top: -15px;
+  left: -35px;
+}
+
+.header {
+  width: 100%;
+  height: 300px;
+  background-color: #845ec2;
+  align-items: center;
+  margin: 0;
+}
+.footer {
+  width: 100%;
+  height: 200px;
+  background-color: #845ec2;
+  align-items: center;
+  margin: 0;
+}
+#self {
+  height: 200px;
+  border-radius: 100px;
+  margin-left: 50px;
+}
+#name {
+  font-size: 60px;
+}
+
+.main {
+  width: 100%;
+}
+#companies {
+  /* background-color: #008f7a; */
+}
+.green {
+  background-color: #008f7a;
+}
+.card {
+  flex: 1;
+  display: flex;
+}
+.figure {
+  height: 150px;
+  padding: 10px;
+  object-fit: contain;
+}
+.figurex {
+  width: 300px;
+  height: 150px;
+  padding: 10px;
+  object-fit: contain;
+}
+.description {
+  width: auto;
+}
+.figurexx {
+  height: 240px;
+  padding: 10px;
+  object-fit: contain;
+}
+/* img {
+  border-radius: 15px;
+} */
+.caption {
+  /* height: 150px; */
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: bold;
+}
+#grid {
+  width: 100%;
+  height: 800px;
+}
+.comment {
+  width: 100%;
+  height: 200px;
+  background: #00c9a7;
+}
+.contact {
+  font-size: 20px;
+  line-height: 50px;
+  color: black;
+}
+@media screen and (max-width: 800px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .title {
+    top: 0;
+    left: 10px;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+  }
+  .card .img {
+    width: 100%;
+  }
+}
